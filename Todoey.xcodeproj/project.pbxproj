@@ -12,6 +12,7 @@
 		F4016C102360F697005C50CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4016C0E2360F697005C50CD /* Main.storyboard */; };
 		F4016C122360F699005C50CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4016C112360F699005C50CD /* Assets.xcassets */; };
 		F4016C152360F699005C50CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4016C132360F699005C50CD /* LaunchScreen.storyboard */; };
+		F40486CC238D131D007AF9E8 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40486CB238D131D007AF9E8 /* SwipeTableViewController.swift */; };
 		F47E6B96238AD16A00AB3CF1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E6B95238AD16A00AB3CF1 /* Item.swift */; };
 		F47E6B98238AD17E00AB3CF1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E6B97238AD17E00AB3CF1 /* Category.swift */; };
 		F4FD0D3A237B66FF00B0702A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FD0D39237B66FF00B0702A /* CategoryViewController.swift */; };
@@ -29,6 +30,7 @@
 		F4016C112360F699005C50CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4016C142360F699005C50CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4016C162360F699005C50CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40486CB238D131D007AF9E8 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		F47E6B95238AD16A00AB3CF1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F47E6B97238AD17E00AB3CF1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F4FD0D39237B66FF00B0702A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				F4FD0D39237B66FF00B0702A /* CategoryViewController.swift */,
 				F4016C0C2360F697005C50CD /* ToDoListViewController.swift */,
+				F40486CB238D131D007AF9E8 /* SwipeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				F4FD0D3A237B66FF00B0702A /* CategoryViewController.swift in Sources */,
 				F4016C0D2360F697005C50CD /* ToDoListViewController.swift in Sources */,
 				F4016C0B2360F697005C50CD /* AppDelegate.swift in Sources */,
+				F40486CC238D131D007AF9E8 /* SwipeTableViewController.swift in Sources */,
 				F47E6B98238AD17E00AB3CF1 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
